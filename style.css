@@ -79,3 +79,30 @@ footer {
     padding-top: 25px;
 }
 /*fim rodape*/
+
+@media (max-width: 700px) {
+    .mainInicio {
+        height: 80%;
+    }
+    .blocoCentral {
+        font-size: 17px;
+        width: 75%;
+        height: 450px;
+        margin: 2px;
+    }
+    a:active {
+        color: #73b873;
+        cursor: pointer;
+    }
+    .mainPersonagens {
+        flex-direction: column;
+    }
+    .blocoPersonagens {
+        width: 80%;
+        margin: 4px;
+        text-align: center;
+    }
+    .footerPersonagens {
+        position: relative;
+    }
+}
