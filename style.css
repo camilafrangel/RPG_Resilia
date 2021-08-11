@@ -6,7 +6,8 @@ body {
     background: #343A32;
     font-size: 1.5em;
 }
-main {
+/*começo pag inicial*/
+.mainInicio {
     display: flex;
     justify-content: center;
     height: 100%;
@@ -27,16 +28,47 @@ main {
 .legendaBotao {
     text-align: center;
 }
-.blocoCentral>a {
+/*fim pag inicial*/
+
+/*comum aos dois*/
+a {
     color: green;
     text-decoration: none;
     font-size: 30px;
     transition: 0.3s;
 }
-.blocoCentral>a:hover {
+a:hover {
     color: #73b873;
     cursor: pointer;
 }
+/*comum aos dois*/
+
+/*comeco personagens*/
+
+.mainPersonagens {
+    display: flex;
+    justify-content: space-around;
+    margin: 4%;
+}
+.blocoPersonagens {
+    background: #262626;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+    border-radius: 50px;
+}
+.blocoPersonagens img {
+    height: 80px;
+}
+
+/*fim personagens*/
+
+/*comeco rodape*/
 footer {
     text-align: center;
     background: #262626;
@@ -46,11 +78,4 @@ footer {
     width:100%;
     padding-top: 25px;
 }
-footer>a {
-    color: green;
-    text-decoration: none;
-    transition: 0;
-}
-footer>a:hover {
-    color: #73b873;
-}
+/*fim rodape*/
