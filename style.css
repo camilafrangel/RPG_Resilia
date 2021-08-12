@@ -10,8 +10,6 @@ body {
 .mainInicio {
     display: flex;
     justify-content: center;
-    height: 100%;
-    margin: 2%;
 }
 .blocoCentral {
     background: #262626;
