@@ -4,42 +4,32 @@ body {
     font-family: 'VT323', monospace;
     color: #D1CA89;
     background: #343A32;
-    font-size: 1.5em;
+    font-size: 15px;
 }
-/*começo pag inicial*/
+/*começo história*/
 .mainInicio {
     display: flex;
-    justify-content: center;
-}
-.blocoCentral {
-    background: #262626;
-    width: 30%;
-    height: 500px;
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+}
+.blocoHistoria {
+    font-size: 1.8em;
+    line-height: 1.2;
+    background: #262626;
+    max-width: 50%;   
     text-align: justify;
-    padding: 30px;
+    padding: 50px;
     border-radius: 50px;
+    margin-top: 10vh;
 }
-.legendaBotao {
-    text-align: center;
-}
-/*fim pag inicial*/
-
-/*comum aos dois*/
-a {
+#citacao {
     color: green;
-    text-decoration: none;
-    font-size: 30px;
-    transition: 0.3s;
 }
-a:hover {
-    color: #73b873;
-    cursor: pointer;
+h1 {
+    margin: 15vh;
+    font-size: 4em;
 }
-/*comum aos dois*/
+/*fim historia*/
 
 /*comeco personagens*/
 
@@ -50,57 +40,44 @@ a:hover {
 }
 .blocoPersonagens {
     background: #262626;
-    width: 300px;
-    height: 400px;
+    font-size: 1.5em;
+    width: 20vw;
+    height: 50vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     text-align: justify;
-    padding: 30px;
+    padding: 35px;
     border-radius: 50px;
 }
 .blocoPersonagens img {
-    height: 80px;
+    height: 10vh;
 }
-
+.botaoEscolha {
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
+}
 /*fim personagens*/
 
 /*comeco rodape*/
 footer {
     text-align: center;
     background: #262626;
-    position:absolute;
-    bottom:0;
     height: 60px;
     width:100%;
     padding-top: 25px;
+    font-size: 1.8em;
+}
+a {
+    color: green;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.3s;
+}
+a:hover {
+    color: #73b873;
+    cursor: pointer;
 }
 /*fim rodape*/
-
-@media (max-width: 700px) {
-    .mainInicio {
-        height: 80%;
-    }
-    .blocoCentral {
-        font-size: 17px;
-        width: 75%;
-        height: 450px;
-        margin: 2px;
-    }
-    a:active {
-        color: #73b873;
-        cursor: pointer;
-    }
-    .mainPersonagens {
-        flex-direction: column;
-    }
-    .blocoPersonagens {
-        width: 80%;
-        margin: 4px;
-        text-align: center;
-    }
-    .footerPersonagens {
-        position: relative;
-    }
-}

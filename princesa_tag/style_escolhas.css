@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body, html{
+    height: 100%;
+  }
+body {
+    font-family: 'VT323', monospace;
+    color: #D1CA89;
+    background: #343A32;
+    font-size: 1.5em;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.blocoEscolhas {
+    background: #262626;
+    height: 50%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: justify;
+    padding: 30px;
+    border-radius: 50px;
+    border: none;
+}
+.blocoEscolhas img {
+    height: 150px;
+    margin-bottom: 50px;
+}
+/*comeco rodape*/
+footer {
+    text-align: center;
+    background: #262626;
+    position:fixed;
+    bottom:0;
+    height: 60px;
+    width:100%;
+    padding-top: 25px;
+}
+a {
+    color: green;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.3s;
+}
+a:hover {
+    color: #73b873;
+    cursor: pointer;
+}
+/*fim rodape*/
