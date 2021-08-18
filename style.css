@@ -25,13 +25,23 @@ body {
 #citacao {
     color: green;
 }
-h1 {
-    margin: 15vh;
-    font-size: 4em;
+.botaoStart {
+    display: flex;
+    justify-content: center;
+    margin: 10vh;
 }
 /*fim historia*/
 
 /*comeco personagens*/
+
+.tituloPersonagens {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    margin-top: 10vh;
+    font-size: 4em;
+}
 
 .mainPersonagens {
     display: flex;
@@ -59,9 +69,27 @@ h1 {
     justify-content: center;
     margin: 10vh;
 }
+button {
+    border: none;
+    color: green;
+    border-radius: 15px;
+    font-size: 2em;
+    background: none;
+    font-family: 'VT323', monospace;
+}
+button:hover {
+    font-size: 2.3em;
+    color: #D1CA89;
+    cursor: pointer;
+    transition: 0.3s;
+}
 /*fim personagens*/
 
 /*comeco rodape*/
+.footerPrincipal {
+    position: absolute;
+    bottom: 0;
+}
 footer {
     text-align: center;
     background: #262626;
@@ -69,6 +97,7 @@ footer {
     width:100%;
     padding-top: 25px;
     font-size: 1.8em;
+    
 }
 a {
     color: green;
