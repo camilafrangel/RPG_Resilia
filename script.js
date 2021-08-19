@@ -16,6 +16,6 @@ if (escolhaPersonagens == 1) {
     location = ('./linker/primeira_etapa/escolha_linker_um.html')
 }
 else {
-    location = ('./guerreiro_denver/escolha_denver_um.html')
+    location = ('./guerreiro_denver/primeira_etapa/escolha_denver_um.html')
 }
 }
