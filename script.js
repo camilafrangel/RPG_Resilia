@@ -13,7 +13,7 @@ while (true) {
 if (escolhaPersonagens == 1) {
     location = ('./princesa_tag/primeira_etapa/escolha_princesa_um.html')
 } else if (escolhaPersonagens == 2) {
-    location = ('./linker/escolha_linker_um.html')
+    location = ('./linker/primeira_etapa/escolha_linker_um.html')
 }
 else {
     location = ('./guerreiro_denver/escolha_denver_um.html')
